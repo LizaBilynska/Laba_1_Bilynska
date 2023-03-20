@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animal App"
+        android:textColor="#2196F3"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_spider"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="688dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.2">
+
+        <ImageView
+            android:id="@+id/image_spider"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            app:srcCompat="@drawable/image_spider" />
+
+        <TextView
+            android:id="@+id/about_spider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Фрідріх"
+            android:textColor="#3A3838"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/about_spider1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Павук Яріка"
+            android:textColor="#404040"></TextView>
+
+        <Button
+            android:id="@+id/button_spider"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="25dp"
+            android:text="Детальніше"
+            android:textSize="12sp"></Button>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_hippo"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="580dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_spider"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/image_hippo"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            app:srcCompat="@drawable/image_hippo" />
+
+        <TextView
+            android:id="@+id/about_hippo"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Вальтер"
+            android:textColor="#3A3838"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/about_hippo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Бегемот Лізи"
+            android:textColor="#404040"></TextView>
+
+        <Button
+            android:id="@+id/button_hippo"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="25dp"
+            android:text="Детальніше"
+            android:textSize="12sp"></Button>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_crocodile"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="476dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_hippo"
+        app:layout_constraintVertical_bias="0.7">
+
+        <ImageView
+            android:id="@+id/image_crocodile"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            app:srcCompat="@drawable/image_crocodile" />
+
+        <TextView
+            android:id="@+id/about_crocodile"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Алукард"
+            android:textColor="#3A3838"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/about_crocodile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Крокодил Лоли"
+            android:textColor="#404040"></TextView>
+
+        <Button
+            android:id="@+id/button_crocodile"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="25dp"
+            android:text="Детальніше"
+            android:textSize="12sp"></Button>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
